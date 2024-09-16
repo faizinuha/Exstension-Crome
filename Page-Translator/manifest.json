@@ -3,7 +3,6 @@
   "name": "Page Translator",
   "version": "1.1",
   "description": "Cocok untuk Translator Multi Bahasa dan seluruh dunia!!.",
-  "credit_screen": "Simple Page Translator Extension that we created in AsmrProg Channel",
   "permissions": [
     "activeTab",
     "scripting"

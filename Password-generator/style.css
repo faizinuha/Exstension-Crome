@@ -1,0 +1,66 @@
+body {
+  font-family: 'Poppins', sans-serif; /* Menggunakan font modern */
+  padding: 40px;
+  background-color: #f0f0f0; /* Warna background yang lembut */
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow untuk container */
+  padding: 90px;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #333;
+}
+
+p.small {
+  text-align: center;
+  flex-wrap: wrap;
+  color: #666;
+  font-size: 1em;
+}
+
+input {
+  width: calc(100% - 24px); /* Mengurangi lebar untuk padding dan border */
+  padding: 17px;
+  font-size: 1.1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px auto;
+  display: block; /* Agar input tampil sebagai block */
+}
+
+button {
+  width: calc(150px - 24px); /* Mengurangi lebar untuk padding dan border */
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px; /* Membuat tombol lebih bulat */
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px auto;
+  display: block; /* Agar tombol tampil sebagai block */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  transform: scale(0.98); /* Memberi efek klik */
+}
+
+/* Kelas tambahan untuk tombol kecil */
+button.btn-sm {
+  width: auto; /* Membiarkan tombol menyesuaikan ukuran */
+  padding: 8px 16px; /* Menyesuaikan padding untuk tombol kecil */
+  font-size: 0.9em; /* Ukuran font lebih kecil */
+}

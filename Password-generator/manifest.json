@@ -10,14 +10,14 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "icon16.png",
-      "48": "icon48.png",
-      "128": "icon128.png"
+      "16": "img/icon16.png.jpeg",
+      "48": "img/icon16.png.jpeg",
+      "128": "img/icon16.png.jpeg"
     }
   },
   "icons": {
-    "16": "icon16.png",
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "16": "img/download.jpeg",
+    "48": "img/download.jpeg",
+    "128": "img/download.jpeg"
   }
 }
